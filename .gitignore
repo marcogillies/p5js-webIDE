@@ -3,6 +3,9 @@ _notes
 .DS_Store
 .env
 run.sh
+
+data
+
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml

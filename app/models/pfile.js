@@ -43,12 +43,12 @@ pFile.prototype.setDefaultContents = function(fileName) {
 
 	// ids of latest default content files:
 	var latestIDs = {
-		'p5.sound.js' : '56c8bf68a8c23d0300c4d654', // <-- not loaded by default
-		'index.html' : '57167b0e3006e5d1543fef7f', //<-- use CDN
-		'style.css' : '569581f26427460300d15479', // <-- css center
-		'p5.dom.js' : '56c8bf68a8c23d0300c4d655', // not loaded for new projects by default *! p5.dom.js v0.2.7 January 4, 2016 */
-		'p5.js' : '56c8bf68a8c23d0300c4d656', // // not loaded for new projects by default *! p5.js v0.4.21 January 04, 2016 */
-		'sketch.js' : '568c2bab4b1e570300c16592'
+		'p5.sound.js' : '571e4076a712a30d0b39751e', // <-- not loaded by default
+		'index.html' : '571e4042a712a30d0b39751b', //<-- use CDN
+		'style.css' : '571e4076a712a30d0b39751c', // <-- css center
+		'p5.dom.js' : '571e4076a712a30d0b39751f', // not loaded for new projects by default *! p5.dom.js v0.2.7 January 4, 2016 */
+		'p5.js' : '571e4076a712a30d0b397520', // // not loaded for new projects by default *! p5.js v0.4.21 January 04, 2016 */
+		'sketch.js' : '571e4076a712a30d0b39751d'
 	};
 
 	var latestID = latestIDs[fileName];
